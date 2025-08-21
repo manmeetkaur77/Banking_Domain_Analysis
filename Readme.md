@@ -1,8 +1,8 @@
-## Banking Customer Data – EDA & Power BI Dashboard
+# Banking Customer Data – EDA & Power BI Dashboard
 
 A data analytics project that combines Exploratory Data Analysis (EDA) and Power BI dashboards to extract insights from banking customer data and support risk-based decision-making.
 
-# Features
+## Features
 
 Exploratory Data Analysis (EDA)
 
@@ -14,7 +14,7 @@ Correlation analysis between income, deposits, loans, and loyalty tiers.
 
 Customer segmentation (Income Band, Loyalty Tier, Occupation).
 
-# Power BI Dashboard
+## Power BI Dashboard
 
 KPIs: Deposits, Loans, Credit Card Balance, Risk Weighting.
 
@@ -26,7 +26,7 @@ Category-wise breakdown: Deposits, loans, fee structure.
 
 Trends and risk patterns: Wealth distribution and property ownership.
 
-# Business Insights
+## Business Insights
 
 Medium income band has the largest customer share (~51%).
 
@@ -48,7 +48,7 @@ Improves retention by analyzing loyalty classifications.
 
 Provides real-time decision support through an interactive dashboard.
 
-# Dataset
+## Dataset
 
 Source: Internal/Simulated Banking Dataset
 
