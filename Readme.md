@@ -1,130 +1,98 @@
-#Banking Customer Data – Exploratory Data Analysis (EDA) & Power BI Dashboard
+📊 Banking Customer Data – Exploratory Data Analysis (EDA) & Power BI Dashboard
 📌 Project Overview
 
-This project focuses on risk analytics in banking and financial services by analyzing customer profiles and transactions. The primary aim is to explore demographics, financial behavior, and customer engagement patterns to minimize lending risk, identify profitable customer segments, and support data-driven decision-making.
-
-The analysis was carried out using EDA (Exploratory Data Analysis) and results were visualized through an interactive Power BI dashboard.
+Brief intro about what the project is and why you did it.
 
 🎯 Objectives
 
-Identify customer segments based on income, deposits, loans, and loyalty status.
+Reduce lending risk
 
-Detect patterns in banking behavior, risk weighting, and fee structure.
+Improve customer acquisition
 
-Find correlations between income, deposits, loans, and credit balance.
+Increase retention rates
 
-Support risk-based lending decisions and improve customer acquisition and retention strategies.
+Segment customers for risk-based lending
 
-Build Power BI dashboards for executives to track KPIs and insights.
+Build KPIs & dashboard in Power BI
 
 📂 Dataset
 
 Source: Simulated banking dataset
 
-Size: ~3,000 rows × 25 columns
+Shape: ~3,000 rows × 25 columns
 
 Features:
 
 Demographics: Gender, Nationality, Occupation
 
-Financials: Estimated Income, Loans, Deposits, Credit Card Balance
+Financials: Income, Loans, Deposits, Credit Card Balance
 
-Behavior: Loyalty Classification, Fee Structure, Risk Weighting, Properties Owned
+Behavior: Loyalty Classification, Fee Structure, Risk Weighting
 
-🔍 Methodology
-1. Data Loading & Inspection
+🔍 EDA Process
 
-Inspected dataset shape, data types, and missing values.
+Data Loading & Inspection
 
-Generated statistical summaries to understand distribution.
+Tools: Pandas, Numpy, Matplotlib, Seaborn
 
-2. Data Cleaning & Feature Engineering
+Checked for missing values, data types, basic stats
 
-Created Income Band feature (Low, Medium, High).
+Data Cleaning & Feature Engineering
 
-Derived Engagement Days from join date.
+Income Band categorization using pd.cut()
 
-Processed Fee Structure into categories for analysis.
+Processing Fee calculation
 
-3. Categorical Analysis
+Engagement Days calculation
 
-Analyzed frequency distributions of loyalty tiers, fee structures, and nationalities.
+Categorical Analysis
 
-Visualized customer segments across categories.
+Countplots for frequency distributions
 
-4. Numerical Analysis
+Nationality, Loyalty, Fee Structure insights
 
-Explored income, deposits, loans, and credit balances.
+Numerical Analysis
 
-Checked for skewness, outliers, and distribution patterns.
+Histograms + KDE plots
 
-5. Correlation Analysis
+Distribution of income, loans, deposits
 
-Identified relationships between financial metrics.
+Correlation Analysis
 
-Highlighted strong positive and negative correlations.
+Pearson correlation heatmap
 
-6. Power BI Dashboard
+Positive & negative relationships among features
 
-Developed interactive visuals to monitor:
+📊 Power BI Dashboard
 
-Customer demographics
+KPIs: Income, Deposits, Loans, Risk Weighting
 
-Risk segments
+Slicers: Gender, Nationality, Loyalty Tier
 
-Deposit vs. Loan distribution
+Visuals: Bar charts, Pie charts, Line graphs, Heatmaps
 
-Loyalty tiers & revenue contribution
+Business focus: Risk detection, customer segmentation, revenue growth
 
-Fee structure impact on revenue
+✅ Key Insights
 
-📊 Key Insights
+Medium income band largest (~51%)
 
-Demographics:
+Europeans dominate (44%)
 
-Gender distribution is nearly equal.
+High fee structure most common (~49%)
 
-European customers dominate (~44%).
+64% have only one credit card
 
-Medium income band is the largest (~51%).
+Higher property ownership → higher wealth
 
-Banking Behavior:
+🏁 Conclusion
 
-64% hold only one credit card.
+This project highlights how combining EDA + Power BI helps financial institutions:
 
-High fee structure is most common (~49%).
+Detect risk patterns
 
-Jade loyalty tier is highest (~44%).
+Optimize lending policies
 
-Risk & Financials:
+Strengthen loyalty strategies
 
-Majority are low-to-medium risk customers.
-
-Higher property ownership correlates with higher wealth.
-
-Deposits and savings accounts show strong positive correlation.
-
-Loans and deposits are moderately negatively correlated.
-
-
-
-
-Conclusion:-
-
-This project demonstrates how EDA and Power BI can be applied to banking data to uncover valuable business insights. Through systematic analysis, we identified risk patterns, customer segments, and financial correlations that can directly support risk-based lending, customer acquisition, and retention strategies.
-
-The Power BI dashboard transforms raw banking data into an interactive decision-support tool, enabling executives to:
-
-Monitor key KPIs in real time
-
-Detect high-risk customers early
-
-Optimize lending and deposit strategies
-
-Strengthen customer loyalty programs
-
-By combining data analytics with business intelligence, the project provides a clear roadmap for financial institutions to make smarter, data-driven decisions.
-
-👉 Do you want me to also prepare a short one-liner conclusion (for interviews when they ask “So, what was the final takeaway from your project?”)?
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+Make data-driven business decisions
