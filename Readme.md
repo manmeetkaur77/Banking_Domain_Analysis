@@ -1,23 +1,56 @@
-📊 Banking Customer Data – Exploratory Data Analysis (EDA) & Power BI Dashboard
-📌 Project Overview
+## Banking Customer Data – EDA & Power BI Dashboard
 
-Brief intro about what the project is and why you did it.
+A data analytics project that combines Exploratory Data Analysis (EDA) and Power BI dashboards to extract insights from banking customer data and support risk-based decision-making.
 
-🎯 Objectives
+# Features
 
-Reduce lending risk
+Exploratory Data Analysis (EDA)
 
-Improve customer acquisition
+Data cleaning and preprocessing (~3,000 rows × 25 columns).
 
-Increase retention rates
+Analyzed demographics, financial metrics, and customer behavior.
 
-Segment customers for risk-based lending
+Correlation analysis between income, deposits, loans, and loyalty tiers.
 
-Build KPIs & dashboard in Power BI
+Customer segmentation (Income Band, Loyalty Tier, Occupation).
 
-📂 Dataset
+# Power BI Dashboard
 
-Source: Simulated banking dataset
+KPIs: Deposits, Loans, Credit Card Balance, Risk Weighting.
+
+Interactive filters/slicers: Gender, Nationality, Occupation, Loyalty Tier.
+
+Visualizations: Bar charts, Pie charts, Line graphs, Heatmaps.
+
+Category-wise breakdown: Deposits, loans, fee structure.
+
+Trends and risk patterns: Wealth distribution and property ownership.
+
+# Business Insights
+
+Medium income band has the largest customer share (~51%).
+
+European nationality dominates the dataset (~44%).
+
+High fee structure is most common (~49%).
+
+Property ownership is strongly linked to higher wealth.
+
+Majority of customers own only one credit card (~64%).
+
+Conclusion & Impact
+
+Enables risk-based lending by identifying high-risk segments.
+
+Supports targeted acquisition strategies for profitable customer groups.
+
+Improves retention by analyzing loyalty classifications.
+
+Provides real-time decision support through an interactive dashboard.
+
+# Dataset
+
+Source: Internal/Simulated Banking Dataset
 
 Shape: ~3,000 rows × 25 columns
 
@@ -25,74 +58,6 @@ Features:
 
 Demographics: Gender, Nationality, Occupation
 
-Financials: Income, Loans, Deposits, Credit Card Balance
+Financials: Estimated Income, Loans, Deposits, Credit Card Balance
 
-Behavior: Loyalty Classification, Fee Structure, Risk Weighting
-
-🔍 EDA Process
-
-Data Loading & Inspection
-
-Tools: Pandas, Numpy, Matplotlib, Seaborn
-
-Checked for missing values, data types, basic stats
-
-Data Cleaning & Feature Engineering
-
-Income Band categorization using pd.cut()
-
-Processing Fee calculation
-
-Engagement Days calculation
-
-Categorical Analysis
-
-Countplots for frequency distributions
-
-Nationality, Loyalty, Fee Structure insights
-
-Numerical Analysis
-
-Histograms + KDE plots
-
-Distribution of income, loans, deposits
-
-Correlation Analysis
-
-Pearson correlation heatmap
-
-Positive & negative relationships among features
-
-📊 Power BI Dashboard
-
-KPIs: Income, Deposits, Loans, Risk Weighting
-
-Slicers: Gender, Nationality, Loyalty Tier
-
-Visuals: Bar charts, Pie charts, Line graphs, Heatmaps
-
-Business focus: Risk detection, customer segmentation, revenue growth
-
-✅ Key Insights
-
-Medium income band largest (~51%)
-
-Europeans dominate (44%)
-
-High fee structure most common (~49%)
-
-64% have only one credit card
-
-Higher property ownership → higher wealth
-
-🏁 Conclusion
-
-This project highlights how combining EDA + Power BI helps financial institutions:
-
-Detect risk patterns
-
-Optimize lending policies
-
-Strengthen loyalty strategies
-
-Make data-driven business decisions
+Behavior: Loyalty Classification, Fee Structure, Properties Owned, Risk Weighting
