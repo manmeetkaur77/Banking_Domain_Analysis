@@ -1,4 +1,4 @@
-#Banking Customer Data – Exploratory Data Analysis (EDA) & Power BI Dashboard
+Banking Customer Data – Exploratory Data Analysis (EDA) & Power BI Dashboard
 📌 Project Overview
 
 This project focuses on risk analytics in banking and financial services by analyzing customer profiles and transactions. The primary aim is to explore demographics, financial behavior, and customer engagement patterns to minimize lending risk, identify profitable customer segments, and support data-driven decision-making.
@@ -78,6 +78,7 @@ Loyalty tiers & revenue contribution
 
 Fee structure impact on revenue
 
+
 📊 Key Insights
 
 Demographics:
@@ -87,6 +88,7 @@ Gender distribution is nearly equal.
 European customers dominate (~44%).
 
 Medium income band is the largest (~51%).
+
 
 Banking Behavior:
 
@@ -122,9 +124,3 @@ Detect high-risk customers early
 Optimize lending and deposit strategies
 
 Strengthen customer loyalty programs
-
-By combining data analytics with business intelligence, the project provides a clear roadmap for financial institutions to make smarter, data-driven decisions.
-
-👉 Do you want me to also prepare a short one-liner conclusion (for interviews when they ask “So, what was the final takeaway from your project?”)?
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
