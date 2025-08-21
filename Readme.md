@@ -38,7 +38,7 @@ Property ownership is strongly linked to higher wealth.
 
 Majority of customers own only one credit card (~64%).
 
-Conclusion & Impact
+## Conclusion & Impact
 
 Enables risk-based lending by identifying high-risk segments.
 
